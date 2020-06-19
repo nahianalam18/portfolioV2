@@ -25,6 +25,16 @@
   color: black;
   font-weight: bold;
 }
+.bb {
+  align-items: center;
+}
+.ant-tabs-tab.ant-tabs-tab-active {
+  color: green;
+  font-weight: 500;
+}
+/* .ant-tabs-tab {
+  color: red;
+}  */
 .blurr-text {
   min-height: 100vh;
   display: flex;

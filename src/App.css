@@ -1,5 +1,50 @@
 @import "~antd/dist/antd.css";
 
+:root {
+  --text-size: 1.9em;
+  --body-width: 60%;
+  --link-color: skyblue;
+  --text-color: black;
+  --background-color: pink;
+  --link-color-highlight: blue;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --text-size: 1.4em;
+    --body-width: 95%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  :root {
+    --text-size: 1.9em;
+    --body-width: 80%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  :root {
+    --text-size: 1.9em;
+    --body-width: 75%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  :root {
+    --text-size: 1.9em;
+    --body-width: 60%;
+  }
+}
+
 .App {
   text-align: center;
 }
@@ -32,17 +77,25 @@
   color: green;
   font-weight: 500;
 }
+.iconss {
+  font-size: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
 /* .ant-tabs-tab {
   color: red;
 }  */
 .blurr-text {
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px+ 2vmin);
   color: white;
+}
+body {
+  background-color: whitesmoke;
 }
 .App-header {
   background-color: #282c34;

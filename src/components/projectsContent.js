@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Button, Card } from "antd";
 import { DataManager } from "../stateManager";
 import QueueAnim from "rc-queue-anim";
+import { GithubFilled } from "@ant-design/icons";
 
 class Project extends Component {
   static contextType = DataManager;

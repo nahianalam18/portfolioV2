@@ -4,7 +4,7 @@ export const DataManager = createContext();
 
 class StateManager extends Component {
   state = {
-    step: 99,
+    step: 0,
     project: [
       {
         index: 1,

@@ -11,14 +11,8 @@ class HomePage extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Hi I'm</h1>
-        <h1>Nahian Alam</h1>
-        {/* <img
-          src={process.env.PUBLIC_URL + "/download.png"}
-          className="avatar"
-          alt="logo"
-        />{" "} */}
-        <br></br>{" "}
+        <h1>Hi, I'm Nahian</h1>
+
         <div className="iconss">
           <a
             className="links icons"

@@ -39,8 +39,8 @@ class HomePage extends Component {
               The University of Texas at Arlington
             </a>
           </p>
-          <p>
-            Shoot me an email at{" "}
+          <p style={{ font: "5px" }}>
+            Email me at{" "}
             <a
               href="mailto:alam.nahian18@gmail.com"
               style={{ color: "purple" }}

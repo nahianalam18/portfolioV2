@@ -9,7 +9,7 @@ class StateManager extends Component {
       {
         index: 1,
         name: "UTA Ride",
-        picture: "/ride1.png",
+        picture: "/ride1.PNG",
         platform: "Virtual Reality - Unity 3D, C#",
       },
       {
@@ -27,7 +27,7 @@ class StateManager extends Component {
       {
         index: 4,
         name: "Tea Tool",
-        picture: "/teatool.png",
+        picture: "/teatool.PNG",
         platform: "Website - ReactJS, ExpressJS",
       },
       {

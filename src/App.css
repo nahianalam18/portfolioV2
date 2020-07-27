@@ -13,8 +13,8 @@
 
 @media only screen and (max-width: 600px) {
   :root {
-    --text-size: 1.4em;
-    --body-width: 95%;
+    --text-size: 1.5em;
+    --body-width: 75%;
   }
 }
 
@@ -22,8 +22,8 @@
 
 @media only screen and (min-width: 600px) {
   :root {
-    --text-size: 1.9em;
-    --body-width: 80%;
+    --text-size: 1.5em;
+    --body-width: 60%;
   }
 }
 
@@ -31,8 +31,8 @@
 
 @media only screen and (min-width: 768px) {
   :root {
-    --text-size: 1.9em;
-    --body-width: 75%;
+    --text-size: 1.5em;
+    --body-width: 55%;
   }
 }
 
@@ -40,8 +40,8 @@
 
 @media only screen and (min-width: 992px) {
   :root {
-    --text-size: 1.9em;
-    --body-width: 60%;
+    --text-size: 1.5em;
+    --body-width: 40%;
   }
 }
 
@@ -97,15 +97,23 @@
 body {
   background-color: whitesmoke;
 }
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.space {
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 0.7vmin);
+  color: black;
 }
 
 .App-link {

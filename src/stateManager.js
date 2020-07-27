@@ -34,7 +34,7 @@ class StateManager extends Component {
         index: 5,
         name: "Park Spot",
         picture: "/parkSpot.jpg",
-        platform: "Flutter - Dart",
+        platform: "Mobile Application - Flutter - Dart",
       },
       {
         index: 6,

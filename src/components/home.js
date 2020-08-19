@@ -16,19 +16,35 @@ class HomePage extends Component {
           <p style={{ color: "royalblue" }}>I'm Nahian</p>
 
           <div className="iconss">
-            <a href="https://drive.google.com/file/d/12OQGWA2xhcvQalJH7RzREoRMG7yGkGKl/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/12OQGWA2xhcvQalJH7RzREoRMG7yGkGKl/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FilePdfFilled style={{ color: "red", padding: "0.2em" }} />
             </a>
 
-            <a href="https://github.com/nahianalam18">
+            <a
+              href="https://github.com/nahianalam18"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GithubFilled style={{ color: "#333", padding: "0.2em" }} />{" "}
             </a>
             <br />
-            <a href="https://www.instagram.com/nahian_alam/">
+            <a
+              href="https://www.instagram.com/nahian_alam/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <InstagramFilled style={{ color: "#fb3958", padding: "0.2em" }} />
             </a>
 
-            <a href="https://www.linkedin.com/in/nahianalam/">
+            <a
+              href="https://www.linkedin.com/in/nahianalam/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LinkedinFilled style={{ color: "#0e76a8", padding: "0.2em" }} />{" "}
             </a>
           </div>

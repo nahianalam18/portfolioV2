@@ -30,6 +30,8 @@ class CardContent extends Component {
         <a
           className="iconss"
           href={this.context.githubLink[this.props.index - 1]}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <GithubFilled style={{ color: "#333", padding: "0.2em" }} />{" "}
         </a>

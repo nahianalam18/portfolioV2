@@ -51,7 +51,12 @@ class HomePage extends Component {
           <p>Computer Science - Class of 2021</p>
           <p>At</p>
           <p>
-            <a href="http://www.uta.edu" style={{ color: "#F5AA14" }}>
+            <a
+              href="http://www.uta.edu"
+              style={{ color: "#F5AA14" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               The University of Texas at Arlington
             </a>
           </p>

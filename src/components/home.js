@@ -17,7 +17,7 @@ class HomePage extends Component {
 
           <div className="iconss">
             <a
-              href="https://drive.google.com/file/d/12OQGWA2xhcvQalJH7RzREoRMG7yGkGKl/view?usp=sharing"
+              href="https://github.com/nahianalam18/portfolioV2/blob/master/src/components/Nahian_Alam_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
